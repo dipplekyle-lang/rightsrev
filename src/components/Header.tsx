@@ -1,10 +1,7 @@
-import { Link, useRouterState } from '@tanstack/react-router'
+import { Link } from '@tanstack/react-router'
 import { LOGO_SRC } from '../assets/logo'
 
 export function Header() {
-  const router = useRouterState()
-  const currentPath = router.location.pathname
-
   return (
     <header className="sticky top-0 z-50 w-full border-b border-zinc-800 bg-black/80 backdrop-blur-sm py-2">
       <div className="container relative mx-auto px-4 flex h-16 items-center justify-center max-w-8xl">

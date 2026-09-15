@@ -7,4 +7,8 @@ export default defineConfig({
     react(),
     TanStackRouterVite(),
   ],
+  base: '/',
+  build: {
+    outDir: 'dist',
+  },
 })
